@@ -5,7 +5,7 @@
   </p>
   <p align="center">
     <a href="https://github.com/shivamtyagi18/git-story/stargazers"><img src="https://img.shields.io/github/stars/shivamtyagi18/git-story?style=for-the-badge&color=415A77" alt="Stars"></a>
-    <a href="https://github.com/shivamtyagi18/git-story/blob/main/LICENSE"><img src="https://img.shields.io/github/license/shivamtyagi18/git-story?style=for-the-badge&color=415A77" alt="License"></a>
+    <a href="https://github.com/shivamtyagi18/git-story/blob/main/LICENSE"><img src="https://img.shields.io/badge/license-MIT-415A77?style=for-the-badge" alt="License"></a>
     <img src="https://img.shields.io/badge/PRs-welcome-415A77?style=for-the-badge" alt="PRs Welcome">
   </p>
 </p>
