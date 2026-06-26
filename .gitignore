@@ -1,0 +1,20 @@
+# Python build/packaging
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+build/
+dist/
+.venv/
+venv/
+
+# Environment files
+.env
+.env.local
+
+# Output files from execution
+*.html
+
+# OS Files
+.DS_Store
+Thumbs.db
