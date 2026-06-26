@@ -54,6 +54,11 @@ def main(args_list=None):
         default=None,
         help="Model name (e.g. 'gpt-4o-mini', 'gemini-1.5-flash', 'llama3')"
     )
+    parser.add_argument(
+        "-s", "--no-open",
+        action="store_true",
+        help="Do not automatically open the output HTML file in the web browser"
+    )
 
     args = parser.parse_args(args_list)
 
@@ -111,6 +116,10 @@ def main(args_list=None):
         output_abs = renderer.render(summarized_commits, args.output)
         print(f"✨ Success! Saved interactive design history deck to:")
         print(f"   👉 file://{output_abs}")
+        if not args.no_open:
+            import webbrowser
+            print("🌐 Opening slide deck in browser...")
+            webbrowser.open(f"file://{output_abs}")
     except Exception as e:
         print(f"❌ Rendering failed: {str(e)}")
         sys.exit(1)
